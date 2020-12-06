@@ -1,0 +1,35 @@
+/* pages/appraise/appraise.wxss */
+.return{
+  width:100%;
+  background-color: white;
+}
+.title{
+  display: flex;
+  height: 55px;
+  font-size: 23px;
+}
+.middle{
+  height: 80px;
+border-top: 0.5px solid #ebebeb;
+}
+.star{
+  display: flex;
+}
+.end{
+  text-align: center;
+  font-size: 18px;
+  border-top: 0.5px solid #ebebeb
+}
+.fend{
+  height:180px;
+  border-top: 0.5px solid #ebebeb
+}
+.endtitle{
+  width:50%;
+  height:30px;
+  margin-left:25%;
+  text-align: center;
+  background-color: #9ac81f;
+  color:white;
+  margin-top:10%;
+}

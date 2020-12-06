@@ -1,0 +1,56 @@
+<!--pages/appraise/appraise.wxml-->
+<view class='main'>
+<map id="map4select"
+ longitude="{{longitude}}" latitude="{{latitude}}" 
+ markers="{{markers}}"
+ scale="14" 
+ style="width:{{map_width}}px;height:{{map_height}}px"
+ controls="{{controls}}"
+ polyline="{{polyline}}"
+  hidden='{{maphide}}'>
+  <cover-view class='return'style='margin-top:{{icontop}}px; height:{{totalheight}}px;'>
+<cover-view class='title'>
+  <cover-image src='../images/xicon.png'style='width:33px;height:33px;margin:8px;'></cover-image>
+<cover-view style='margin-top:4%;margin-left:33%;'>评价</cover-view>
+</cover-view>
+<cover-view class='middle'>
+<cover-view class='star'>
+  <cover-image id='1'src='{{sstar1}}'style='width:33px;height:33px;margin:8px;margin-left:20%;'bindtap='select1'></cover-image>
+  <cover-image id='2'src='{{sstar2}}'style='width:33px;height:33px;margin:8px;'bindtap='select2'></cover-image>
+    <cover-image id='3'src='{{sstar3}}'style='width:33px;height:33px;margin:8px;'bindtap='select3'></cover-image>
+      <cover-image id='4'src='{{sstar4}}'style='width:33px;height:33px;margin:8px;'bindtap='select4'></cover-image>
+        <cover-image id='4'src='{{sstar5}}'style='width:33px;height:33px;margin:8px;'bindtap='select5'></cover-image>
+  </cover-view>
+  <cover-view style='text-align:center;font-size:15px;'>{{may}}</cover-view>
+</cover-view>
+<cover-view class='end'hidden='{{endhide}}'bindtap='suggest'>
+<cover-view style='margin-top:6%;'>请输入你的意见或建议</cover-view>
+</cover-view>
+
+<cover-view class='fend'hidden='{{fendhide}}'>
+<cover-view class='icons'style='display:flex;'>
+<cover-view style='margin:10px;width:50px;height:50px;border-radius:50px 50px 50px 50px;border:0.5px solid #ebebeb;margin-left:15%;font-size:11px;text-align:center;'>
+<cover-view style='margin-top:40%;'>车不干净</cover-view>
+</cover-view>
+<cover-view style='margin:10px;width:50px;height:50px;border-radius:50px 50px 50px 50px;border:0.5px solid #ebebeb;font-size:11px;text-align:center;'>
+<cover-view style='margin-top:40%;'>乱停乱放</cover-view>
+</cover-view>
+<cover-view style='margin:10px;width:50px;height:50px;border-radius:50px 50px 50px 50px;border:0.5px solid #ebebeb;font-size:11px;text-align:center;'>
+<cover-view style='margin-top:40%;'>超速</cover-view>
+</cover-view>
+<cover-view style='margin:10px;width:50px;height:50px;border-radius:50px 50px 50px 50px;border:0.5px solid #ebebeb;font-size:11px;text-align:center;'>
+<cover-view style='margin-top:40%;'>车牌不符</cover-view>
+</cover-view>
+</cover-view>
+
+<cover-view class='endtitle'>
+<cover-view style='margin-top:3%;'>匿名提交</cover-view>
+</cover-view>
+</cover-view>
+  </cover-view>
+  </map>
+  <!-- <modal hidden="{{hiddenmodalput}}" confirm-text="继续等待" cancel-text="取消订单" bindcancel="cancel" bindconfirm="confirm">
+                <image src='../../images/icon.png'style='width: 60px; height: 60px; background-color: white;margin-left:40%'></image>
+                <view style='margin-left:20%;'>亲，再等会，司机马上驾到</view>
+</modal> -->
+  </view>
