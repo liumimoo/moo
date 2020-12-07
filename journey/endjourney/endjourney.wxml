@@ -1,0 +1,55 @@
+<!--pages/journey/endjourney/endjourney.wxml-->
+<view class='main'>
+<map id="map4select"
+ longitude="{{longitude}}" latitude="{{latitude}}" 
+ markers="{{markers}}"
+ scale="14" 
+ style="width:{{map_width}}px;height:{{map_height}}px"
+ controls="{{controls}}"
+  polyline="{{polyline}}"
+  hidden='{{maphide}}'>
+  <cover-view class='endtap'style='margin-top:{{icontop}}px;'>
+<cover-view class='drivermessage'>
+<cover-view class='licence'>
+<cover-view class='licencetitle'>
+<cover-view style='margin-top:2%;'>{{licencetitle}}</cover-view>
+</cover-view>
+<cover-view class='carname'style='color:grey;font-size:12px;margin-left:10%;'>{{carname}}</cover-view>
+</cover-view>
+<cover-view class='driverimage'></cover-view>
+<cover-view class='detailmessage'>
+<cover-view class='drivername'style=' text-align: center;'>{{drivername}}</cover-view>
+<cover-view class='star'style='display:flex;'>
+  <cover-image src='../../images/star.png'style='width:13px;height:13px;'></cover-image>{{star}}</cover-view>
+<cover-view class='designation'style=' text-align: center;font-size:13px;background-color:grey;color:white;'>{{designation}}</cover-view>
+</cover-view>
+</cover-view>
+
+<cover-view class='tips'> 
+<cover-view class='sendmessage'style=' text-align: center;width:33%;'>
+<cover-view style='margin-top:7%;display:flex;margin-left:20%;'>
+ <cover-image src='../../images/tellmessage.png'style='width:16px;height:16px;'></cover-image>
+发消息</cover-view></cover-view>
+<cover-view class='call'style=' text-align: center;width:33%; border-left:0.5px solid #EBEBEB;'>
+<cover-view style='margin-top:7%;display:flex;margin-left:20%;'>
+ <cover-image src='../../images/tel.png'style='width:16px;height:16px;'></cover-image>
+打电话</cover-view></cover-view>
+<cover-view class='contact'style=' text-align: center;width:33%;border-left:0.5px solid #EBEBEB;'>
+<cover-view style='margin-top:7%;display:flex;margin-left:20%;'>
+ <cover-image src='../../images/service.png'style='width:16px;height:16px;margin-right:2px;'></cover-image>
+联系客服</cover-view></cover-view>
+</cover-view>
+<cover-view class='price'>
+<cover-view style='margin-top:3%;'>{{price}}元</cover-view>
+</cover-view>
+<cover-view class='bill'>
+<cover-view style='text-align:center;width:50%;'>我的账单</cover-view>
+<cover-view style='text-align:center;width:50%;height:16px;border-left:0.5px solid #EBEBEB'>索取发票</cover-view>
+</cover-view>
+<cover-view class='appraise' bindtap='tendtoappraise'>
+<cover-view style='margin-top:5%;'>评价本次服务</cover-view>
+</cover-view>
+  </cover-view>
+  </map>
+
+  </view>

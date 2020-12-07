@@ -1,0 +1,67 @@
+/* pages/journey/endjourney/endjourney.wxss */
+.endtap{
+  width:90%;
+  margin-left:5%;
+  height:260px;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+
+}
+.drivermessage{
+  height:72px;
+  font-size: 15px;
+    display: flex;
+}
+.tips{
+  height:35px;
+  border:0.5px solid #EBEBEB;
+  display:flex;
+  font-size: 15px;
+}
+.price{
+  height:50px;
+  text-align: center;
+  font-size: 20px;
+
+}
+.bill{
+  height:40px;
+  display:flex;
+  font-size: 16px;
+}
+.appraise{
+    height:45px;
+  border-top:1px solid #EBEBEB;
+  text-align: center;
+}
+.licence{
+  width:40%;
+  height:72px;
+}
+.licencetitle{
+  height:25px;
+  margin-left: 10%;
+  margin-top: 15%;
+  text-align: center;
+  border: 1px solid black;
+  width:60%;
+border-radius: 10px 10px 10px 10px;
+background-color: #EBEBEB;
+}
+.driverimage{
+  width:50px;
+  height:50px;
+  border-radius: 60px 60px 60px 60px;
+  background-color: grey;
+  margin-top:4%;
+  margin-left:5%;
+}
+.detailmessage{
+  margin-left:20%;
+    margin-top:4%;
+}
+.star{
+  color:#9ac81f;
+  text-align: center;
+  margin-left:22%;
+}

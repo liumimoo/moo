@@ -1,0 +1,27 @@
+<!--pages/journey/inthejourney/inthejourney.wxml-->
+<view class='main'>
+<map id="map4select"
+ longitude="{{longitude}}" latitude="{{latitude}}" 
+ markers="{{markers}}"
+ scale="15" 
+ style="width:{{map_width}}px;height:{{map_height}}px"
+ controls="{{controls}}"
+ polyline="{{polyline}}"
+  hidden='{{maphide}}'>
+  <cover-view class='return'style='margin-top:{{icontop}}px;'>
+  <cover-image src='../../images/location.png'style='width:33px;height:33px;margin:8px;'></cover-image>
+  </cover-view>
+    <cover-view class='taketicket'>预计费用：{{total}}元</cover-view>
+  <!-- <cover-view class='personrole'>
+  <cover-view class='title'>温馨提示：{{changetitle}}</cover-view>
+
+  </cover-view> -->
+  <cover-view class='end'>
+  <cover-view style='margin-top:2%;' bindtap='clickorder'>立即支付：{{price}}元</cover-view>
+  </cover-view>
+  </map>
+  <!-- <modal hidden="{{hiddenmodalput}}" confirm-text="继续等待" cancel-text="取消订单" bindcancel="cancel" bindconfirm="confirm">
+                <image src='../../images/icon.png'style='width: 60px; height: 60px; background-color: white;margin-left:40%'></image>
+                <view style='margin-left:20%;'>亲，再等会，司机马上驾到</view>
+</modal> -->
+  </view>

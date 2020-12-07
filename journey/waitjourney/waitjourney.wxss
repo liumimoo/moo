@@ -1,0 +1,38 @@
+/* pages/journey/waitjourney/waitjourney.wxss */
+.return{
+  width:50px;
+  height:50px;
+  border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    margin-left: 80%;
+
+}
+.personrole{
+  margin-left:5%;
+  height:50px;
+  width:90%;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  display:flex;
+  font-size: 15px;
+  margin-top:5%;
+}
+.title{
+  margin-left:5%;
+  width:30%;
+  margin-top:5%;
+}
+.taketicket{
+  margin-left:30%;
+    margin-top:5%;
+}
+.end{
+width:90%;
+height:30px;
+background-color: #9ac81f;
+color:white;
+text-align: center;
+margin-top:5%;
+margin-left:5%;
+font-size: 15px;
+}

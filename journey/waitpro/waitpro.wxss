@@ -1,0 +1,73 @@
+/* pages/journey/waitpro/waitpro.wxss */
+.endtap{
+  width:90%;
+  margin-left:5%;
+  height:120px;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+
+}
+.drivermessage{
+  height:72px;
+  font-size: 15px;
+    display: flex;
+}
+.tips{
+  height:35px;
+  border:0.5px solid #EBEBEB;
+  display:flex;
+  font-size: 15px;
+}
+.licence{
+  width:40%;
+  height:72px;
+}
+.licencetitle{
+  height:25px;
+  margin-left: 10%;
+  margin-top: 15%;
+  text-align: center;
+  border: 1px solid black;
+  width:60%;
+border-radius: 10px 10px 10px 10px;
+background-color: #EBEBEB;
+}
+.driverimage{
+  width:50px;
+  height:50px;
+  border-radius: 60px 60px 60px 60px;
+  background-color: grey;
+  margin-top:4%;
+  margin-left:5%;
+}
+.detailmessage{
+  margin-left:15%;
+    margin-top:4%;
+}
+.star{
+  color:#9ac81f;
+
+  font-size:13px;
+}
+.return{
+  width:50px;
+  height:50px;
+  border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    margin-left: 80%;
+
+}
+.reward{
+  background-color: white;
+  margin-left:5%;
+    margin-top:5%;
+  width:90%;
+   border-radius: 10px 10px 10px 10px;
+   height:30px;
+   }
+.remessages{
+      margin-top:1.5%;
+margin-left:5%;
+font-size: 15px;
+color:grey;
+}

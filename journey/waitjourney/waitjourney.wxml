@@ -1,0 +1,27 @@
+<!--pages/journey/waitjourney/waitjourney.wxml-->
+<view class='main'>
+<map id="map4select"
+
+ longitude="{{longitude}}" latitude="{{latitude}}" 
+ markers="{{markers}}"
+ scale="20" 
+ style="width:{{map_width}}px;height:{{map_height}}px"
+ controls="{{controls}}"
+ show-location="false"
+  hidden='{{maphide}}'>
+  <cover-view class='return'style='margin-top:{{icontop}}px;'bindtap='returnback'>
+  <cover-image src='../../images/location.png'style='width:33px;height:33px;margin:8px;'></cover-image>
+  </cover-view>
+  <cover-view class='personrole'>
+  <cover-view class='title'>{{personrole}}</cover-view>
+  <cover-view class='taketicket'>立即领取打车券</cover-view>
+  </cover-view>
+  <cover-view class='end'>
+  <cover-view style='margin-top:2%;' bindtap='cancelorder'>取消订单</cover-view>
+  </cover-view>
+  </map>
+  <modal hidden="{{hiddenmodalput}}" confirm-text="继续等待" cancel-text="取消订单" bindcancel="cancel" bindconfirm="confirm">
+                <image src='../../images/icon.png'style='width: 60px; height: 60px; background-color: white;margin-left:40%'></image>
+                <view style='margin-left:20%;'>亲，再等会，司机马上驾到</view>
+</modal>
+  </view>
